@@ -1,0 +1,586 @@
+libflaxscriptqt_a-moc_coincontroltreewidget.o: \
+  moc_coincontroltreewidget.cpp coincontroltreewidget.h \
+  /opt/local/include/QtGui/QKeyEvent /opt/local/include/QtGui/qevent.h \
+  /opt/local/include/QtGui/qwindowdefs.h \
+  /opt/local/include/QtCore/qobjectdefs.h \
+  /opt/local/include/QtCore/qnamespace.h \
+  /opt/local/include/QtCore/qglobal.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/6.1.0/include/stddef.h \
+  /opt/local/include/QtCore/qconfig.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/algorithm \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/__config \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/initializer_list \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/cstddef \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/type_traits \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/cstring \
+  /usr/include/string.h /usr/include/_types.h /usr/include/sys/_types.h \
+  /usr/include/sys/cdefs.h /usr/include/sys/_symbol_aliasing.h \
+  /usr/include/sys/_posix_availability.h /usr/include/machine/_types.h \
+  /usr/include/i386/_types.h /usr/include/sys/_pthread/_pthread_types.h \
+  /usr/include/Availability.h /usr/include/AvailabilityInternal.h \
+  /usr/include/sys/_types/_size_t.h /usr/include/sys/_types/_null.h \
+  /usr/include/sys/_types/_rsize_t.h /usr/include/sys/_types/_errno_t.h \
+  /usr/include/sys/_types/_ssize_t.h /usr/include/strings.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/utility \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/__tuple \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/__tuple_03 \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/memory \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/typeinfo \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/exception \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/cstdint \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/6.1.0/include/stdint.h \
+  /usr/include/stdint.h /usr/include/sys/_types/_int8_t.h \
+  /usr/include/sys/_types/_int16_t.h /usr/include/sys/_types/_int32_t.h \
+  /usr/include/sys/_types/_int64_t.h /usr/include/_types/_uint8_t.h \
+  /usr/include/_types/_uint16_t.h /usr/include/_types/_uint32_t.h \
+  /usr/include/_types/_uint64_t.h /usr/include/sys/_types/_intptr_t.h \
+  /usr/include/sys/_types/_uintptr_t.h /usr/include/_types/_intmax_t.h \
+  /usr/include/_types/_uintmax_t.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/new \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/limits \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/__undef_min_max \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/iterator \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/__functional_base \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/__functional_base_03 \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/iosfwd \
+  /usr/include/wchar.h /usr/include/sys/_types/_mbstate_t.h \
+  /usr/include/sys/_types/_ct_rune_t.h /usr/include/sys/_types/_rune_t.h \
+  /usr/include/sys/_types/_wchar_t.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/6.1.0/include/stdarg.h \
+  /usr/include/stdio.h /usr/include/sys/_types/_va_list.h \
+  /usr/include/sys/stdio.h /usr/include/sys/_types/_off_t.h \
+  /usr/include/time.h /usr/include/sys/_types/_clock_t.h \
+  /usr/include/sys/_types/_time_t.h /usr/include/sys/_types/_timespec.h \
+  /usr/include/_wctype.h /usr/include/sys/_types/_wint_t.h \
+  /usr/include/_types/_wctype_t.h /usr/include/ctype.h \
+  /usr/include/runetype.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/__debug \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/tuple \
+  /usr/include/AvailabilityMacros.h \
+  /opt/local/include/QtCore/qfeatures.h \
+  /opt/local/include/QtGui/qmacdefines_mac.h \
+  /opt/local/include/QtCore/qobject.h \
+  /opt/local/include/QtCore/qstring.h /opt/local/include/QtCore/qchar.h \
+  /opt/local/include/QtCore/qbytearray.h \
+  /opt/local/include/QtCore/qatomic.h \
+  /opt/local/include/QtCore/qbasicatomic.h \
+  /opt/local/include/QtCore/qatomic_arch.h \
+  /opt/local/include/QtCore/qatomic_macosx.h \
+  /opt/local/include/QtCore/qatomic_x86_64.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/string \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/cstdio \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/cwchar \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/cwctype \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/cctype \
+  /usr/include/wctype.h /usr/include/_types/_wctrans_t.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/stdexcept \
+  /opt/local/include/QtCore/qlist.h \
+  /opt/local/include/QtCore/qiterator.h \
+  /opt/local/include/QtCore/qalgorithms.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/list \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/6.1.0/include/limits.h \
+  /usr/include/limits.h /usr/include/machine/limits.h \
+  /usr/include/i386/limits.h /usr/include/i386/_limits.h \
+  /usr/include/sys/syslimits.h \
+  /opt/local/include/QtCore/qscopedpointer.h \
+  /opt/local/include/QtGui/qregion.h /opt/local/include/QtCore/qrect.h \
+  /opt/local/include/QtCore/qsize.h /opt/local/include/QtCore/qpoint.h \
+  /opt/local/include/QtCore/qdatastream.h \
+  /opt/local/include/QtCore/qiodevice.h \
+  /opt/local/include/QtGui/qkeysequence.h \
+  /opt/local/include/QtCore/qcoreevent.h \
+  /opt/local/include/QtGui/qmime.h /opt/local/include/QtCore/qmimedata.h \
+  /opt/local/include/QtCore/qvariant.h \
+  /opt/local/include/QtCore/qmetatype.h /opt/local/include/QtCore/qmap.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/map \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/__tree \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/functional \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/__functional_03 \
+  /opt/local/include/QtCore/qhash.h /opt/local/include/QtCore/qpair.h \
+  /opt/local/include/QtGui/qdrag.h /opt/local/include/QtCore/qset.h \
+  /opt/local/include/QtCore/qfile.h /opt/local/include/QtGui/QTreeWidget \
+  /opt/local/include/QtGui/qtreewidget.h \
+  /opt/local/include/QtGui/qtreeview.h \
+  /opt/local/include/QtGui/qabstractitemview.h \
+  /opt/local/include/QtGui/qabstractscrollarea.h \
+  /opt/local/include/QtGui/qframe.h /opt/local/include/QtGui/qwidget.h \
+  /opt/local/include/QtCore/qmargins.h \
+  /opt/local/include/QtGui/qpaintdevice.h \
+  /opt/local/include/QtGui/qpalette.h /opt/local/include/QtGui/qcolor.h \
+  /opt/local/include/QtGui/qrgb.h \
+  /opt/local/include/QtCore/qstringlist.h \
+  /opt/local/include/QtCore/qregexp.h \
+  /opt/local/include/QtCore/qstringmatcher.h \
+  /opt/local/include/QtGui/qbrush.h /opt/local/include/QtCore/qvector.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/vector \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/__bit_reference \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/climits \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/__split_buffer \
+  /usr/include/stdlib.h /usr/include/sys/wait.h \
+  /usr/include/sys/_types/_pid_t.h /usr/include/sys/_types/_id_t.h \
+  /usr/include/sys/signal.h /usr/include/sys/appleapiopts.h \
+  /usr/include/machine/signal.h /usr/include/i386/signal.h \
+  /usr/include/machine/_mcontext.h /usr/include/i386/_mcontext.h \
+  /usr/include/mach/i386/_structs.h \
+  /usr/include/sys/_pthread/_pthread_attr_t.h \
+  /usr/include/sys/_types/_sigaltstack.h \
+  /usr/include/sys/_types/_ucontext.h \
+  /usr/include/sys/_types/_sigset_t.h /usr/include/sys/_types/_uid_t.h \
+  /usr/include/sys/resource.h /usr/include/sys/_types/_timeval.h \
+  /usr/include/machine/endian.h /usr/include/i386/endian.h \
+  /usr/include/sys/_endian.h /usr/include/libkern/_OSByteOrder.h \
+  /usr/include/libkern/i386/_OSByteOrder.h /usr/include/alloca.h \
+  /usr/include/machine/types.h /usr/include/i386/types.h \
+  /usr/include/sys/_types/_dev_t.h /usr/include/sys/_types/_mode_t.h \
+  /opt/local/include/QtGui/qmatrix.h /opt/local/include/QtGui/qpolygon.h \
+  /opt/local/include/QtCore/qline.h \
+  /opt/local/include/QtGui/qtransform.h \
+  /opt/local/include/QtGui/qpainterpath.h \
+  /opt/local/include/QtGui/qimage.h /opt/local/include/QtGui/qpixmap.h \
+  /opt/local/include/QtCore/qsharedpointer.h \
+  /opt/local/include/QtCore/qshareddata.h \
+  /opt/local/include/QtCore/qsharedpointer_impl.h \
+  /opt/local/include/QtGui/qfont.h \
+  /opt/local/include/QtGui/qfontmetrics.h \
+  /opt/local/include/QtGui/qfontinfo.h \
+  /opt/local/include/QtGui/qsizepolicy.h \
+  /opt/local/include/QtGui/qcursor.h \
+  /opt/local/include/QtCore/qabstractitemmodel.h \
+  /opt/local/include/QtGui/qitemselectionmodel.h \
+  /opt/local/include/QtGui/qabstractitemdelegate.h \
+  /opt/local/include/QtGui/qstyleoption.h \
+  /opt/local/include/QtGui/qabstractspinbox.h \
+  /opt/local/include/QtGui/qvalidator.h \
+  /opt/local/include/QtCore/qlocale.h /opt/local/include/QtGui/qicon.h \
+  /opt/local/include/QtGui/qslider.h \
+  /opt/local/include/QtGui/qabstractslider.h \
+  /opt/local/include/QtGui/qstyle.h /opt/local/include/QtGui/qtabbar.h \
+  /opt/local/include/QtGui/qtabwidget.h \
+  /opt/local/include/QtGui/qrubberband.h \
+  /opt/local/include/QtGui/qtreewidgetitemiterator.h
+
+coincontroltreewidget.h:
+
+/opt/local/include/QtGui/QKeyEvent:
+
+/opt/local/include/QtGui/qevent.h:
+
+/opt/local/include/QtGui/qwindowdefs.h:
+
+/opt/local/include/QtCore/qobjectdefs.h:
+
+/opt/local/include/QtCore/qnamespace.h:
+
+/opt/local/include/QtCore/qglobal.h:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/6.1.0/include/stddef.h:
+
+/opt/local/include/QtCore/qconfig.h:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/algorithm:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/__config:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/initializer_list:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/cstddef:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/type_traits:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/cstring:
+
+/usr/include/string.h:
+
+/usr/include/_types.h:
+
+/usr/include/sys/_types.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/sys/_symbol_aliasing.h:
+
+/usr/include/sys/_posix_availability.h:
+
+/usr/include/machine/_types.h:
+
+/usr/include/i386/_types.h:
+
+/usr/include/sys/_pthread/_pthread_types.h:
+
+/usr/include/Availability.h:
+
+/usr/include/AvailabilityInternal.h:
+
+/usr/include/sys/_types/_size_t.h:
+
+/usr/include/sys/_types/_null.h:
+
+/usr/include/sys/_types/_rsize_t.h:
+
+/usr/include/sys/_types/_errno_t.h:
+
+/usr/include/sys/_types/_ssize_t.h:
+
+/usr/include/strings.h:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/utility:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/__tuple:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/__tuple_03:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/memory:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/typeinfo:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/exception:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/cstdint:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/6.1.0/include/stdint.h:
+
+/usr/include/stdint.h:
+
+/usr/include/sys/_types/_int8_t.h:
+
+/usr/include/sys/_types/_int16_t.h:
+
+/usr/include/sys/_types/_int32_t.h:
+
+/usr/include/sys/_types/_int64_t.h:
+
+/usr/include/_types/_uint8_t.h:
+
+/usr/include/_types/_uint16_t.h:
+
+/usr/include/_types/_uint32_t.h:
+
+/usr/include/_types/_uint64_t.h:
+
+/usr/include/sys/_types/_intptr_t.h:
+
+/usr/include/sys/_types/_uintptr_t.h:
+
+/usr/include/_types/_intmax_t.h:
+
+/usr/include/_types/_uintmax_t.h:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/new:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/limits:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/__undef_min_max:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/iterator:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/__functional_base:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/__functional_base_03:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/iosfwd:
+
+/usr/include/wchar.h:
+
+/usr/include/sys/_types/_mbstate_t.h:
+
+/usr/include/sys/_types/_ct_rune_t.h:
+
+/usr/include/sys/_types/_rune_t.h:
+
+/usr/include/sys/_types/_wchar_t.h:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/6.1.0/include/stdarg.h:
+
+/usr/include/stdio.h:
+
+/usr/include/sys/_types/_va_list.h:
+
+/usr/include/sys/stdio.h:
+
+/usr/include/sys/_types/_off_t.h:
+
+/usr/include/time.h:
+
+/usr/include/sys/_types/_clock_t.h:
+
+/usr/include/sys/_types/_time_t.h:
+
+/usr/include/sys/_types/_timespec.h:
+
+/usr/include/_wctype.h:
+
+/usr/include/sys/_types/_wint_t.h:
+
+/usr/include/_types/_wctype_t.h:
+
+/usr/include/ctype.h:
+
+/usr/include/runetype.h:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/__debug:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/tuple:
+
+/usr/include/AvailabilityMacros.h:
+
+/opt/local/include/QtCore/qfeatures.h:
+
+/opt/local/include/QtGui/qmacdefines_mac.h:
+
+/opt/local/include/QtCore/qobject.h:
+
+/opt/local/include/QtCore/qstring.h:
+
+/opt/local/include/QtCore/qchar.h:
+
+/opt/local/include/QtCore/qbytearray.h:
+
+/opt/local/include/QtCore/qatomic.h:
+
+/opt/local/include/QtCore/qbasicatomic.h:
+
+/opt/local/include/QtCore/qatomic_arch.h:
+
+/opt/local/include/QtCore/qatomic_macosx.h:
+
+/opt/local/include/QtCore/qatomic_x86_64.h:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/string:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/cstdio:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/cwchar:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/cwctype:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/cctype:
+
+/usr/include/wctype.h:
+
+/usr/include/_types/_wctrans_t.h:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/stdexcept:
+
+/opt/local/include/QtCore/qlist.h:
+
+/opt/local/include/QtCore/qiterator.h:
+
+/opt/local/include/QtCore/qalgorithms.h:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/list:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/6.1.0/include/limits.h:
+
+/usr/include/limits.h:
+
+/usr/include/machine/limits.h:
+
+/usr/include/i386/limits.h:
+
+/usr/include/i386/_limits.h:
+
+/usr/include/sys/syslimits.h:
+
+/opt/local/include/QtCore/qscopedpointer.h:
+
+/opt/local/include/QtGui/qregion.h:
+
+/opt/local/include/QtCore/qrect.h:
+
+/opt/local/include/QtCore/qsize.h:
+
+/opt/local/include/QtCore/qpoint.h:
+
+/opt/local/include/QtCore/qdatastream.h:
+
+/opt/local/include/QtCore/qiodevice.h:
+
+/opt/local/include/QtGui/qkeysequence.h:
+
+/opt/local/include/QtCore/qcoreevent.h:
+
+/opt/local/include/QtGui/qmime.h:
+
+/opt/local/include/QtCore/qmimedata.h:
+
+/opt/local/include/QtCore/qvariant.h:
+
+/opt/local/include/QtCore/qmetatype.h:
+
+/opt/local/include/QtCore/qmap.h:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/map:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/__tree:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/functional:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/__functional_03:
+
+/opt/local/include/QtCore/qhash.h:
+
+/opt/local/include/QtCore/qpair.h:
+
+/opt/local/include/QtGui/qdrag.h:
+
+/opt/local/include/QtCore/qset.h:
+
+/opt/local/include/QtCore/qfile.h:
+
+/opt/local/include/QtGui/QTreeWidget:
+
+/opt/local/include/QtGui/qtreewidget.h:
+
+/opt/local/include/QtGui/qtreeview.h:
+
+/opt/local/include/QtGui/qabstractitemview.h:
+
+/opt/local/include/QtGui/qabstractscrollarea.h:
+
+/opt/local/include/QtGui/qframe.h:
+
+/opt/local/include/QtGui/qwidget.h:
+
+/opt/local/include/QtCore/qmargins.h:
+
+/opt/local/include/QtGui/qpaintdevice.h:
+
+/opt/local/include/QtGui/qpalette.h:
+
+/opt/local/include/QtGui/qcolor.h:
+
+/opt/local/include/QtGui/qrgb.h:
+
+/opt/local/include/QtCore/qstringlist.h:
+
+/opt/local/include/QtCore/qregexp.h:
+
+/opt/local/include/QtCore/qstringmatcher.h:
+
+/opt/local/include/QtGui/qbrush.h:
+
+/opt/local/include/QtCore/qvector.h:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/vector:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/__bit_reference:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/climits:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/__split_buffer:
+
+/usr/include/stdlib.h:
+
+/usr/include/sys/wait.h:
+
+/usr/include/sys/_types/_pid_t.h:
+
+/usr/include/sys/_types/_id_t.h:
+
+/usr/include/sys/signal.h:
+
+/usr/include/sys/appleapiopts.h:
+
+/usr/include/machine/signal.h:
+
+/usr/include/i386/signal.h:
+
+/usr/include/machine/_mcontext.h:
+
+/usr/include/i386/_mcontext.h:
+
+/usr/include/mach/i386/_structs.h:
+
+/usr/include/sys/_pthread/_pthread_attr_t.h:
+
+/usr/include/sys/_types/_sigaltstack.h:
+
+/usr/include/sys/_types/_ucontext.h:
+
+/usr/include/sys/_types/_sigset_t.h:
+
+/usr/include/sys/_types/_uid_t.h:
+
+/usr/include/sys/resource.h:
+
+/usr/include/sys/_types/_timeval.h:
+
+/usr/include/machine/endian.h:
+
+/usr/include/i386/endian.h:
+
+/usr/include/sys/_endian.h:
+
+/usr/include/libkern/_OSByteOrder.h:
+
+/usr/include/libkern/i386/_OSByteOrder.h:
+
+/usr/include/alloca.h:
+
+/usr/include/machine/types.h:
+
+/usr/include/i386/types.h:
+
+/usr/include/sys/_types/_dev_t.h:
+
+/usr/include/sys/_types/_mode_t.h:
+
+/opt/local/include/QtGui/qmatrix.h:
+
+/opt/local/include/QtGui/qpolygon.h:
+
+/opt/local/include/QtCore/qline.h:
+
+/opt/local/include/QtGui/qtransform.h:
+
+/opt/local/include/QtGui/qpainterpath.h:
+
+/opt/local/include/QtGui/qimage.h:
+
+/opt/local/include/QtGui/qpixmap.h:
+
+/opt/local/include/QtCore/qsharedpointer.h:
+
+/opt/local/include/QtCore/qshareddata.h:
+
+/opt/local/include/QtCore/qsharedpointer_impl.h:
+
+/opt/local/include/QtGui/qfont.h:
+
+/opt/local/include/QtGui/qfontmetrics.h:
+
+/opt/local/include/QtGui/qfontinfo.h:
+
+/opt/local/include/QtGui/qsizepolicy.h:
+
+/opt/local/include/QtGui/qcursor.h:
+
+/opt/local/include/QtCore/qabstractitemmodel.h:
+
+/opt/local/include/QtGui/qitemselectionmodel.h:
+
+/opt/local/include/QtGui/qabstractitemdelegate.h:
+
+/opt/local/include/QtGui/qstyleoption.h:
+
+/opt/local/include/QtGui/qabstractspinbox.h:
+
+/opt/local/include/QtGui/qvalidator.h:
+
+/opt/local/include/QtCore/qlocale.h:
+
+/opt/local/include/QtGui/qicon.h:
+
+/opt/local/include/QtGui/qslider.h:
+
+/opt/local/include/QtGui/qabstractslider.h:
+
+/opt/local/include/QtGui/qstyle.h:
+
+/opt/local/include/QtGui/qtabbar.h:
+
+/opt/local/include/QtGui/qtabwidget.h:
+
+/opt/local/include/QtGui/qrubberband.h:
+
+/opt/local/include/QtGui/qtreewidgetitemiterator.h:
