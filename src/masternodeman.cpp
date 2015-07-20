@@ -658,11 +658,11 @@ void CMasternodeMan::ProcessMessage(CNode* pfrom, std::string& strCommand, CData
 
         // make sure the vout that was signed is related to the transaction that spawned the Masternode
         //  - this is expensive, so it's only done once per Masternode
-        if(!darkSendSigner.IsVinAssociatedWithPubkey(vin, pubkey)) {
-            LogPrintf("dsee - Got mismatched pubkey and vin\n");
-            Misbehaving(pfrom->GetId(), 100);
-            return;
-        }
+        //if(!darkSendSigner.IsVinAssociatedWithPubkey(vin, pubkey)) {
+        //    LogPrintf("dsee - Got mismatched pubkey and vin\n");
+        //    Misbehaving(pfrom->GetId(), 100);
+        //    return;
+        //}
 
         if(fDebug) LogPrintf("dsee - Got NEW Masternode entry %s\n", addr.ToString().c_str());
 
