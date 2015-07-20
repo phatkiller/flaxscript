@@ -47,7 +47,7 @@ void ProcessMessageMasternodePayments(CNode* pfrom, std::string& strCommand, CDa
 bool GetBlockHash(uint256& hash, int nBlockHeight);
 
 //
-// The Masternode Class. For managing the Darksend process. It contains the input of the 1000DRK, signature to prove
+// The Masternode Class. For managing the Darksend process. It contains the input of the 23000FLAX, signature to prove
 // it's the one who own that ip address and code for calculating the payment election.
 //
 class CMasternode

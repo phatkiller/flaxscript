@@ -54,7 +54,7 @@ public:
     /// Register any Masternode
     bool Register(CTxIn vin, CService service, CKey key, CPubKey pubKey, CKey keyMasternode, CPubKey pubKeyMasternode, CScript donationAddress, int donationPercentage, std::string &retErrorMessage); 
 
-    /// Get 1000DRK input that can be used for the Masternode
+    /// Get 23K Tons of FLAX nput that can be used for the Masternode
     bool GetMasterNodeVin(CTxIn& vin, CPubKey& pubkey, CKey& secretKey);
     bool GetMasterNodeVin(CTxIn& vin, CPubKey& pubkey, CKey& secretKey, std::string strTxHash, std::string strOutputIndex);
     vector<COutput> SelectCoinsMasternode();

@@ -1,7 +1,7 @@
 Multi masternode config
 =======================
 
-The multi masternode config allows to control multiple masternodes from a single wallet. The wallet needs to have a valid collaral output of 1000 coins for each masternode. To use this, place a file named masternode.conf in the data directory of your install:
+The multi masternode config allows to control multiple masternodes from a single wallet. The wallet needs to have a valid collaral output of 23000 coins for each masternode. To use this, place a file named masternode.conf in the data directory of your install:
  * Windows: %APPDATA%\Flaxscript\
  * Mac OS: ~/Library/Application Support/Flaxscript/
  * Unix/Linux: ~/.flaxscript/

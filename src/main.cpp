@@ -1428,7 +1428,7 @@ double ConvertBitsToDouble(unsigned int nBits)
 }
 
 static const int64_t nStartSubsidy = 23 * COIN;
-static const int64_t nMinSubsidy = 1 * COIN;
+static const int64_t nMinSubsidy = .0017 * COIN;
 
 int64_t GetBlockValue(int nBits, int nHeight, int64_t nFees)
 {
@@ -1437,17 +1437,14 @@ int64_t GetBlockValue(int nBits, int nHeight, int64_t nFees)
 
     nSubsidy >>= (nHeight / Params().SubsidyHalvingInterval());
 
-    if (nSubsidy < nMinSubsidy)
-    {
-        nSubsidy = nMinSubsidy;
-    }
+    if (nSubsidy < nMinSubsidy){nSubsidy = nMinSubsidy;}
 
     return nSubsidy + nFees;
 }
 
 int64_t GetMasternodePayment(int nHeight, int64_t blockValue)
 {
-    int64_t ret = blockValue/4; // 25%
+    int64_t ret = blockValue/3; // 33 degrees.
 
     return ret;
 }
