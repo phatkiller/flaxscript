@@ -1,9 +1,11 @@
 Building Flaxscript
 
-See doc/readme-qt.md for instructions on building Bitcoin-Qt,
-the intended-for-end-users, nice-graphical-interface, reference
-implementation of Bitcoin.
+Use the autogen script to prepare the build environment.
 
-See doc/build-*.md for instructions on building bitcoind,
+    ./autogen.sh
+    ./configure
+    make
+
+See doc/build-*.md for instructions on building flaxscriptd,
 the intended-for-services, no-graphical-interface, reference
-implementation of Bitcoin.
+implementation of Flaxscript.

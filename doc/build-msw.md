@@ -1,8 +1,6 @@
 WINDOWS BUILD NOTES
 ===================
 
-See [readme-qt.md](readme-qt.md) for instructions on building Bitcoin-Qt, the
-graphical user interface.
 
 Compilers Supported
 -------------------
@@ -57,7 +55,7 @@ MSYS shell:
 
 Boost
 -----
-DOS prompt:
+MSYS shell:
 
 	downloaded boost jam 3.1.18
 	cd \boost-1.50.0-mgw
@@ -74,10 +72,12 @@ MSYS shell:
 	mkdir miniupnpc
 	cp *.h miniupnpc/
 
-Bitcoin
+Flaxscript
 -------
-DOS prompt:
+MSYS shell:
 
-	cd \bitcoin\src
-	mingw32-make -f makefile.mingw
-	strip bitcoind.exe
+	cd \dash
+	sh autogen.sh
+	sh configure
+	mingw32-make
+	strip dashd.exe

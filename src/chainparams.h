@@ -8,7 +8,6 @@
 
 #include "bignum.h"
 #include "uint256.h"
-#include "util.h"
 
 #include <vector>
 
@@ -27,7 +26,7 @@ struct CDNSSeedData {
 
 /**
  * CChainParams defines various tweakable parameters of a given instance of the
- * Bitcoin system. There are three: the main network on which people trade goods
+ * Flaxscript system. There are three: the main network on which people trade goods
  * and services, the public test network which gets reset from time to time and
  * a regression test mode which is intended for private networks only. It has
  * minimal difficulty to ensure that blocks can be found instantly.
@@ -39,12 +38,17 @@ public:
         MAIN,
         TESTNET,
         REGTEST,
+
+        MAX_NETWORK_TYPES
     };
 
     enum Base58Type {
         PUBKEY_ADDRESS,
         SCRIPT_ADDRESS,
-        SECRET_KEY,
+        SECRET_KEY,     // BIP16
+        EXT_PUBLIC_KEY, // BIP32
+        EXT_SECRET_KEY, // BIP32
+        EXT_COIN_TYPE,  // BIP44
 
         MAX_BASE58_TYPES
     };
@@ -60,11 +64,11 @@ public:
     const string& DataDir() const { return strDataDir; }
     virtual Network NetworkID() const = 0;
     const vector<CDNSSeedData>& DNSSeeds() const { return vSeeds; }
-    int Base58Prefix(Base58Type type) const { return base58Prefixes[type]; }
+    const std::vector<unsigned char> &Base58Prefix(Base58Type type) const { return base58Prefixes[type]; }
     virtual const vector<CAddress>& FixedSeeds() const = 0;
     int RPCPort() const { return nRPCPort; }
 protected:
-    CChainParams() {};
+    CChainParams() {}
 
     uint256 hashGenesisBlock;
     MessageStartChars pchMessageStart;
@@ -76,7 +80,7 @@ protected:
     int nSubsidyHalvingInterval;
     string strDataDir;
     vector<CDNSSeedData> vSeeds;
-    int base58Prefixes[MAX_BASE58_TYPES];
+    std::vector<unsigned char> base58Prefixes[MAX_BASE58_TYPES];
 };
 
 /**
@@ -97,6 +101,10 @@ bool SelectParamsFromCommandLine();
 inline bool TestNet() {
     // Note: it's deliberate that this returns "false" for regression test mode.
     return Params().NetworkID() == CChainParams::TESTNET;
+}
+
+inline bool RegTest() {
+    return Params().NetworkID() == CChainParams::REGTEST;
 }
 
 #endif

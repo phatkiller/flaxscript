@@ -1,9 +1,13 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
+// Copyright (c) 2014-2015 The Dash developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #include "intro.h"
 #include "ui_intro.h"
+
+#include "guiutil.h"
+
 #include "util.h"
 
 #include <boost/filesystem.hpp>
@@ -14,7 +18,7 @@
 
 /* Minimum free space (in bytes) needed for data directory */
 static const uint64_t GB_BYTES = 1000000000LL;
-static const uint64_t BLOCK_CHAIN_SIZE = 20LL * GB_BYTES;
+static const uint64_t BLOCK_CHAIN_SIZE = 1LL * GB_BYTES;
 
 /* Check free space asynchronously to prevent hanging the UI thread.
 
@@ -59,7 +63,7 @@ void FreespaceChecker::check()
 {
     namespace fs = boost::filesystem;
     QString dataDirStr = intro->getPathToCheck();
-    fs::path dataDir = fs::path(dataDirStr.toStdString());
+    fs::path dataDir = GUIUtil::qstringToBoostPath(dataDirStr);
     uint64_t freeBytesAvailable = 0;
     int replyStatus = ST_OK;
     QString replyMessage = tr("A new data directory will be created.");
@@ -143,7 +147,7 @@ void Intro::setDataDirectory(const QString &dataDir)
 
 QString Intro::getDefaultDataDirectory()
 {
-    return QString::fromStdString(GetDefaultDataDir().string());
+    return GUIUtil::boostPathToQString(GetDefaultDataDir());
 }
 
 void Intro::pickDataDirectory()
@@ -159,7 +163,7 @@ void Intro::pickDataDirectory()
     /* 2) Allow QSettings to override default dir */
     dataDir = settings.value("strDataDir", dataDir).toString();
 
-    if(!fs::exists(dataDir.toStdString()) || GetBoolArg("-choosedatadir", false))
+    if(!fs::exists(GUIUtil::qstringToBoostPath(dataDir)) || GetBoolArg("-choosedatadir", false))
     {
         /* If current default data directory does not exist, let the user choose one */
         Intro intro;
@@ -175,11 +179,11 @@ void Intro::pickDataDirectory()
             }
             dataDir = intro.getDataDirectory();
             try {
-                fs::create_directory(dataDir.toStdString());
+                TryCreateDirectory(GUIUtil::qstringToBoostPath(dataDir));
                 break;
             } catch(fs::filesystem_error &e) {
-                QMessageBox::critical(0, QObject::tr("Chikun"),
-                    QObject::tr("Error: Specified data directory \"%1\" can not be created.").arg(dataDir));
+                QMessageBox::critical(0, tr("Flaxscript"),
+                    tr("Error: Specified data directory \"%1\" can not be created.").arg(dataDir));
                 /* fall through, back to choosing screen */
             }
         }
@@ -187,11 +191,11 @@ void Intro::pickDataDirectory()
         settings.setValue("strDataDir", dataDir);
     }
     /* Only override -datadir if different from the default, to make it possible to
-     * override -datadir in the bitcoin.conf file in the default data directory
-     * (to be consistent with bitcoind behavior)
+     * override -datadir in the flaxscript.conf file in the default data directory
+     * (to be consistent with flaxscriptd behavior)
      */
     if(dataDir != getDefaultDataDirectory())
-        SoftSetArg("-datadir", dataDir.toStdString());
+        SoftSetArg("-datadir", GUIUtil::qstringToBoostPath(dataDir).string()); // use OS locale for path setting
 }
 
 void Intro::setStatus(int status, const QString &message, quint64 bytesAvailable)
@@ -235,7 +239,7 @@ void Intro::on_dataDirectory_textChanged(const QString &dataDirStr)
 
 void Intro::on_ellipsisButton_clicked()
 {
-    QString dir = QFileDialog::getExistingDirectory(0, "Choose data directory", ui->dataDirectory->text());
+    QString dir = QDir::toNativeSeparators(QFileDialog::getExistingDirectory(0, "Choose data directory", ui->dataDirectory->text()));
     if(!dir.isEmpty())
         ui->dataDirectory->setText(dir);
 }

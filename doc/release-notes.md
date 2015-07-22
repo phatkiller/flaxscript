@@ -1,3 +1,5 @@
-(note: this is a temporary file, to be added-to by anybody, and deleted at
-release time)
+Flaxscript 0.9.1
+===============
+
+Flaxscript Core 0.9.1 is a fork of Bitcoin Core tree 0.9.
 
