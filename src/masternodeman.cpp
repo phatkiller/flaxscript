@@ -621,11 +621,11 @@ void CMasternodeMan::ProcessMessage(CNode* pfrom, std::string& strCommand, CData
             Misbehaving(pfrom->GetId(), 100);
             return;
         }
-
+/*
         if(Params().NetworkID() == CChainParams::MAIN){
             if(addr.GetPort() != 9999) return;
         } else if(addr.GetPort() == 9999) return;
-
+*/
         //search existing Masternode list, this is where we update existing Masternodes with new dsee broadcasts
         CMasternode* pmn = this->Find(vin);
         // if we are masternode but with undefined vin and this dsee is ours (matches our Masternode privkey) then just skip this part
