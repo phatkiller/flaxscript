@@ -131,10 +131,10 @@ Berkeley DB
 It is recommended to use Berkeley DB 4.8. If you have to build it yourself:
 
 ```bash
-DASH_ROOT=$(pwd)
+FLAX_ROOT=$(pwd)
 
 # Pick some path to install BDB to, here we create a directory within the dash directory
-BDB_PREFIX="${DASH_ROOT}/db4"
+BDB_PREFIX="${FLAX_ROOT}/db4"
 mkdir -p $BDB_PREFIX
 
 # Fetch the source and verify that it is not tampered with
@@ -150,7 +150,7 @@ cd db-4.8.30.NC/build_unix/
 make install
 
 # Configure Dash Core to use our own-built instance of BDB
-cd $DASH_ROOT
+cd $FLAX_ROOT
 ./configure (other args...) LDFLAGS="-L${BDB_PREFIX}/lib/" CPPFLAGS="-I${BDB_PREFIX}/include/"
 ```
 

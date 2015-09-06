@@ -278,7 +278,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="113"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DASH&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR FLAX&lt;/b&gt;!</source>
         <translation>警告:如果把錢包加密後又忘記密碼，你就會從此&lt;b&gt;失去所有的達世幣了&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -1138,12 +1138,12 @@ Address: %4
     </message>
     <message>
         <location filename="../forms/darksendconfig.ui" line="78"/>
-        <source>Use 2 separate masternodes to mix funds up to 1000 DASH</source>
+        <source>Use 2 separate masternodes to mix funds up to 1000 FLAX</source>
         <translation>使用2個獨立的主節點混合資金最多1000DRK</translation>
     </message>
     <message>
         <location filename="../forms/darksendconfig.ui" line="91"/>
-        <source>Use 8 separate masternodes to mix funds up to 1000 DASH</source>
+        <source>Use 8 separate masternodes to mix funds up to 1000 FLAX</source>
         <translation>使用8個獨立的主節點混合資金最多1000DRK</translation>
     </message>
     <message>
@@ -1153,17 +1153,17 @@ Address: %4
     </message>
     <message>
         <location filename="../forms/darksendconfig.ui" line="117"/>
-        <source>This option is the quickest and will cost about ~0.025 DASH to anonymize 1000 DASH</source>
+        <source>This option is the quickest and will cost about ~0.025 FLAX to anonymize 1000 FLAX</source>
         <translation>此選項為最快速度，需要支付0.025D​​RK/1000DRK的匿名處理費用。</translation>
     </message>
     <message>
         <location filename="../forms/darksendconfig.ui" line="130"/>
-        <source>This option is moderately fast and will cost about 0.05 DASH to anonymize 1000 DASH</source>
+        <source>This option is moderately fast and will cost about 0.05 FLAX to anonymize 1000 FLAX</source>
         <translation>此選項為一般速度，需要支付0.05DRK/1000DRK的匿名處理費用。</translation>
     </message>
     <message>
         <location filename="../forms/darksendconfig.ui" line="156"/>
-        <source>0.1 DASH per 1000 DASH you anonymize.</source>
+        <source>0.1 FLAX per 1000 FLAX you anonymize.</source>
         <translation>0.1DRK/1000DRK的匿名處理費用。</translation>
     </message>
     <message>
@@ -1812,7 +1812,7 @@ https://www.transifex.com/projects/p/flaxscript/</translation>
     </message>
     <message>
         <location filename="../forms/overviewpage.ui" line="349"/>
-        <source>0 DASH</source>
+        <source>0 FLAX</source>
         <translation>0 達世幣</translation>
     </message>
     <message>
@@ -1822,7 +1822,7 @@ https://www.transifex.com/projects/p/flaxscript/</translation>
     </message>
     <message>
         <location filename="../forms/overviewpage.ui" line="363"/>
-        <source>0 DASH / 0 Rounds</source>
+        <source>0 FLAX / 0 Rounds</source>
         <translation>0 達世幣 / 0 循環數</translation>
     </message>
     <message>
@@ -3875,8 +3875,8 @@ XwnLY9Tf7Zsef8gMGL2fhWA9ZmMjt4KPwg)</translation>
     </message>
     <message numerus="yes">
         <location filename="../walletmodel.cpp" line="271"/>
-        <source>InstantX doesn&apos;t support sending values that high yet. Transactions are currently limited to %n DASH.</source>
-        <translation><numerusform>即時到帳系統暫時不支援發送這麼多的幣。目前交易額只限於%n DASH。</numerusform></translation>
+        <source>InstantX doesn&apos;t support sending values that high yet. Transactions are currently limited to %n FLAX.</source>
+        <translation><numerusform>即時到帳系統暫時不支援發送這麼多的幣。目前交易額只限於%n FLAX。</numerusform></translation>
     </message>
 </context>
 <context>
@@ -4145,8 +4145,8 @@ rpcpassword=%s
     </message>
     <message>
         <location filename="../flaxscriptstrings.cpp" line="138"/>
-        <source>Unable to locate enough Darksend non-denominated funds for this transaction that are not equal 1000 DASH.</source>
-        <translation>無法找到足夠的匿名發送未除名資金(不等於1000 DASH)用於本次交易。</translation>
+        <source>Unable to locate enough Darksend non-denominated funds for this transaction that are not equal 1000 FLAX.</source>
+        <translation>無法找到足夠的匿名發送未除名資金(不等於1000 FLAX)用於本次交易。</translation>
     </message>
     <message>
         <location filename="../flaxscriptstrings.cpp" line="141"/>

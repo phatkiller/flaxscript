@@ -1,4 +1,4 @@
-TOR SUPPORT IN DASH
+TOR SUPPORT IN FLAX
 =======================
 
 It is possible to run Dash as a Tor hidden service, and connect to such services.

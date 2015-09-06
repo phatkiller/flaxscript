@@ -280,7 +280,7 @@ Dieses Produkt enthält zudem folgende Dritt-Software:
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="113"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DASH&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR FLAX&lt;/b&gt;!</source>
         <translation>Warnung: Wenn Sie ihre Wallet verschlüsseln und ihre Passphrase verlieren werden Sie &lt;b&gt;alle ihre Flaxscript verlieren&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -1139,13 +1139,13 @@ Adresse: %4</translation>
     </message>
     <message>
         <location filename="../forms/darksendconfig.ui" line="78"/>
-        <source>Use 2 separate masternodes to mix funds up to 1000 DASH</source>
-        <translation>Benutze 2 separate Masternodes um bis zu 1000 DASH zu mixen</translation>
+        <source>Use 2 separate masternodes to mix funds up to 1000 FLAX</source>
+        <translation>Benutze 2 separate Masternodes um bis zu 1000 FLAX zu mixen</translation>
     </message>
     <message>
         <location filename="../forms/darksendconfig.ui" line="91"/>
-        <source>Use 8 separate masternodes to mix funds up to 1000 DASH</source>
-        <translation>Benutze 8 separate Masternodes um bis zu 1000 DASH zu mixen</translation>
+        <source>Use 8 separate masternodes to mix funds up to 1000 FLAX</source>
+        <translation>Benutze 8 separate Masternodes um bis zu 1000 FLAX zu mixen</translation>
     </message>
     <message>
         <location filename="../forms/darksendconfig.ui" line="104"/>
@@ -1154,18 +1154,18 @@ Adresse: %4</translation>
     </message>
     <message>
         <location filename="../forms/darksendconfig.ui" line="117"/>
-        <source>This option is the quickest and will cost about ~0.025 DASH to anonymize 1000 DASH</source>
-        <translation>Diese Option ist am Schnellsten und kostet ungefähr 0,025 DASH, um 1000 DASH zu anonymisieren</translation>
+        <source>This option is the quickest and will cost about ~0.025 FLAX to anonymize 1000 FLAX</source>
+        <translation>Diese Option ist am Schnellsten und kostet ungefähr 0,025 FLAX, um 1000 FLAX zu anonymisieren</translation>
     </message>
     <message>
         <location filename="../forms/darksendconfig.ui" line="130"/>
-        <source>This option is moderately fast and will cost about 0.05 DASH to anonymize 1000 DASH</source>
-        <translation>Diese Option ist einigermaßen schnell und kostet ungefähr 0,05 DASH, um 1000 DASH zu anonymisieren</translation>
+        <source>This option is moderately fast and will cost about 0.05 FLAX to anonymize 1000 FLAX</source>
+        <translation>Diese Option ist einigermaßen schnell und kostet ungefähr 0,05 FLAX, um 1000 FLAX zu anonymisieren</translation>
     </message>
     <message>
         <location filename="../forms/darksendconfig.ui" line="156"/>
-        <source>0.1 DASH per 1000 DASH you anonymize.</source>
-        <translation>0,1 DASH pro 1000 zu anonymisierende Flaxscript.</translation>
+        <source>0.1 FLAX per 1000 FLAX you anonymize.</source>
+        <translation>0,1 FLAX pro 1000 zu anonymisierende Flaxscript.</translation>
     </message>
     <message>
         <location filename="../forms/darksendconfig.ui" line="143"/>
@@ -1813,8 +1813,8 @@ https://www.transifex.com/projects/p/flaxscript/</translation>
     </message>
     <message>
         <location filename="../forms/overviewpage.ui" line="349"/>
-        <source>0 DASH</source>
-        <translation>0 DASH</translation>
+        <source>0 FLAX</source>
+        <translation>0 FLAX</translation>
     </message>
     <message>
         <location filename="../forms/overviewpage.ui" line="356"/>
@@ -1823,8 +1823,8 @@ https://www.transifex.com/projects/p/flaxscript/</translation>
     </message>
     <message>
         <location filename="../forms/overviewpage.ui" line="363"/>
-        <source>0 DASH / 0 Rounds</source>
-        <translation>0 DASH / 0 Runden</translation>
+        <source>0 FLAX / 0 Rounds</source>
+        <translation>0 FLAX / 0 Runden</translation>
     </message>
     <message>
         <location filename="../forms/overviewpage.ui" line="370"/>
@@ -3875,8 +3875,8 @@ Dies kann passieren, wenn einige Flaxscript aus ihrer Wallet bereits ausgegeben 
     </message>
     <message numerus="yes">
         <location filename="../walletmodel.cpp" line="271"/>
-        <source>InstantX doesn&apos;t support sending values that high yet. Transactions are currently limited to %n DASH.</source>
-        <translation><numerusform>InstantX unterstützt das Versenden von Beträgen dieser Höhe noch nicht. Transaktionen sind zur Zeit auf maximal %n DASH begrenzt.</numerusform><numerusform>InstantX unterstützt das Versenden von Beträgen dieser Höhe noch nicht. Transaktionen sind zur Zeit auf maximal %n DASH begrenzt.</numerusform></translation>
+        <source>InstantX doesn&apos;t support sending values that high yet. Transactions are currently limited to %n FLAX.</source>
+        <translation><numerusform>InstantX unterstützt das Versenden von Beträgen dieser Höhe noch nicht. Transaktionen sind zur Zeit auf maximal %n FLAX begrenzt.</numerusform><numerusform>InstantX unterstützt das Versenden von Beträgen dieser Höhe noch nicht. Transaktionen sind zur Zeit auf maximal %n FLAX begrenzt.</numerusform></translation>
     </message>
 </context>
 <context>
@@ -4145,8 +4145,8 @@ zum Beispiel: alertnotify=echo %%s | mail -s \&quot;Flaxscript Alert\&quot; admi
     </message>
     <message>
         <location filename="../flaxscriptstrings.cpp" line="138"/>
-        <source>Unable to locate enough Darksend non-denominated funds for this transaction that are not equal 1000 DASH.</source>
-        <translation>Für diese Transaktion konnten nicht genug nicht mit Darksend gestückelte Beträge gefunden werden, die ungleich 1000 DASH sind.</translation>
+        <source>Unable to locate enough Darksend non-denominated funds for this transaction that are not equal 1000 FLAX.</source>
+        <translation>Für diese Transaktion konnten nicht genug nicht mit Darksend gestückelte Beträge gefunden werden, die ungleich 1000 FLAX sind.</translation>
     </message>
     <message>
         <location filename="../flaxscriptstrings.cpp" line="141"/>
