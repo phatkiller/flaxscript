@@ -249,7 +249,7 @@ void BitcoinGUI::createActions(bool fIsTestnet)
 #endif
     tabGroup->addAction(sendCoinsAction);
 
-    receiveCoinsAction = new QAction(QIcon(":/icons/receiving_addresses"), tr("&quire Flax"), this);
+    receiveCoinsAction = new QAction(QIcon(":/icons/receiving_addresses"), tr("&Aquire Flax"), this);
     receiveCoinsAction->setStatusTip(tr("Collect flax from another"));
     receiveCoinsAction->setToolTip(receiveCoinsAction->statusTip());
     receiveCoinsAction->setCheckable(true);
