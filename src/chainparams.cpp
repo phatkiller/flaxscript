@@ -61,17 +61,9 @@ public:
         assert(hashGenesisBlock == uint256("0x00000cfc6d06805a3cf598e42c91379bf185fce04cc2759ef53a203aeae676a1"));
         assert(genesis.hashMerkleRoot == uint256("0xe6fbf62ba0bf84cd80fbf65f9a32446143dfc457d83bca1a9e530570ad15e5c8"));
 
-        vSeeds.push_back(CDNSSeedData("seed1.23skidoo.info", "seed1.23skidoo.info"));
-        vSeeds.push_back(CDNSSeedData("seed2.23skidoo.info", "seed2.23skidoo.info"));
-        vSeeds.push_back(CDNSSeedData("seed3.23skidoo.info", "seed3.23skidoo.info"));
-        vSeeds.push_back(CDNSSeedData("seed4.23skidoo.info", "seed4.23skidoo.info"));
-        vSeeds.push_back(CDNSSeedData("seed5.23skidoo.info", "seed5.23skidoo.info"));
-        vSeeds.push_back(CDNSSeedData("seed6.23skidoo.info", "seed6.23skidoo.info"));
-        vSeeds.push_back(CDNSSeedData("seed7.23skidoo.info", "seed7.23skidoo.info"));
-        vSeeds.push_back(CDNSSeedData("seed8.23skidoo.info", "seed8.23skidoo.info"));
-        vSeeds.push_back(CDNSSeedData("seed9.23skidoo.info", "seed9.23skidoo.info"));
-        vSeeds.push_back(CDNSSeedData("seed10.23skidoo.info", "seed10.23skidoo.info"));
-        vSeeds.push_back(CDNSSeedData("seed1.flaxscript.info", "seed1.flaxscript.info"));
+            vSeeds.push_back(CDNSSeedData("seed1.flaxscript.org", "seed1.flaxscript.org"));
+	    vSeeds.push_back(CDNSSeedData("seed2.flaxscript.org", "seed2.flaxscript.org"));
+	    vSeeds.push_back(CDNSSeedData("seed3.flaxscript.org", "seed3.flaxscript.org"));
 
         base58Prefixes[PUBKEY_ADDRESS] = list_of( 43);                    // Flaxscript addresses start with 'X'
         base58Prefixes[SCRIPT_ADDRESS] = list_of(  4);                    // Flaxscript script addresses start with '7'
